@@ -38,7 +38,7 @@ def ajout_possible(p,sol):
 def est_solution(sol):
     return sol[0]!=sol[1] and sol[2]!=sol[3] and sol[0]+sol[2] < sol[1]
 L_sol = []
-def backtracking(p, N, sol ):
+def backtracking(p, N, sol):
     global solution
     global cpt
     cpt+=1
